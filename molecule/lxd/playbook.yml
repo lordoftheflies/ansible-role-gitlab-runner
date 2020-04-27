@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - gitlab-runner_deployment_users_home: /root
+    - gitlab-runner_testing_provider: lxd
+
+  roles:
+    - gitlab-runner

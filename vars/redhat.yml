@@ -1,0 +1,4 @@
+---
+# roles/gitlab-runner/vars/debian.yml
+
+gitlab-runner_package_extension: 'rpm'
